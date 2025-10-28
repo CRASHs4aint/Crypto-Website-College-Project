@@ -105,6 +105,8 @@ body {
   font-size: 1.01vw;
   color: #d85811;
 }
+
+
 /* Mihir Ranjan styling */
 .Hero {
   display: flex;
@@ -196,49 +198,48 @@ body {
   z-index: -10;
   height: 50%;
 }
-/* Mihir Ranjan styling Ends */
+
 
 /* Marquee of hero section */
 
 .scroll-strip {
-  position: relative;
   width: 100%;
-  background: linear-gradient(90deg, #0d0d0d, #1a1a1a);
-  color: #fff;
   overflow: hidden;
-  white-space: nowrap;
+  background: linear-gradient(90deg, #0d0d0d, #1a1a1a);
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  height: 40px;
   display: flex;
   align-items: center;
-  height: 40px;
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
-  scroll-behavior: smooth;
 }
 
 .scroll-content {
-  overflow: hidden;
-  display: inline-flex;
-  align-items: center;
-  animation: scroll-left 10s linear infinite;
+  display: flex;
+  width: max-content;
+  animation: scroll-left 20s linear infinite;
 }
 
-.scroll-content span {
+.scroll-items {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.scroll-items span {
   display: flex;
   align-items: center;
   margin-right: 100px;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 1px;
   text-transform: uppercase;
+  color: #fff;
 }
 
-.scroll-content img {
+.scroll-items img {
   width: 12px;
   height: 12px;
-  margin-left:60px;
+  margin-left: 60px;
   filter: brightness(0) invert(1);
-  opacity: 1;
-  object-fit: auto;
 }
 
 @keyframes scroll-left {
@@ -246,9 +247,11 @@ body {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
+
+
 
 /* Second section by Mihir Ranjan*/
 
@@ -306,7 +309,63 @@ width: 64%;
 }
 
 
+/* Mihir Ranjan styling Ends */
+
+
  /* Styling third section */
+
+ /* .ThirdSection {
+  display: flex;
+  max-width: 1220px;  
+  margin: 0 auto;     
+  padding: 8% 20px;
+  width: 100%;  
+  background-color: black;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  column-gap: 4px;
+  
+}
+
+.LeftContent {
+    color:#fff;
+    flex-basis: 100%;
+    align-content: center;
+    padding:0 2%;
+    
+}
+.LeftContent h3{
+    font-size: 2.9rem;
+    
+}
+
+.MiddleContent {
+    padding: 0 4%;
+    flex-basis: 100%;
+    color:#fff;
+    align-items: center;
+
+}
+
+.MiddleContent h3{
+    font-size: 2.9rem;
+    
+}
+
+.RightContent {
+    padding:0 2%;
+    color: #fff;
+    flex-basis: 100%;
+}
+
+.RightContent h3{
+    font-size: 2.9rem;
+
+}   
+ */
+
 
 #third-section {
   height: 100vh;
