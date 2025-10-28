@@ -314,7 +314,7 @@ width: 64%;
 
  /* Styling third section */
 
- /* .ThirdSection {
+ .ThirdSection {
   display: flex;
   max-width: 1220px;  
   margin: 0 auto;     
@@ -339,7 +339,7 @@ width: 64%;
 .LeftContent h3{
     font-size: 2.9rem;
     
-}
+} 
 
 .MiddleContent {
     padding: 0 4%;
@@ -364,7 +364,6 @@ width: 64%;
     font-size: 2.9rem;
 
 }   
- */
 
 
 #third-section {
